@@ -2,7 +2,7 @@ import React from "react";
 import { stats } from "../constants";
 
 const Stats = () => (
-  <section className="mb-6 flex flex-row flex-wrap items-center justify-center sm:mb-20">
+  <section className="mb-6 flex flex-row flex-wrap items-start justify-start sm:mb-20 sm:items-center sm:justify-center">
     {stats.map(({ id, value, title }) => (
       <>
         <div
