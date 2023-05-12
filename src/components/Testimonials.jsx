@@ -1,4 +1,3 @@
-import React from "react";
 import { feedback } from "../constants";
 import FeedbackCard from "./FeedbackCard";
 const Testimonials = () => (
