@@ -20,7 +20,10 @@ const FeatureCards = features.map(({ id, icon, title, content }) => (
 ));
 const Business = () => {
   return (
-    <section id="features" className="flex flex-col py-6 sm:py-16 md:flex-row">
+    <section
+      id="features"
+      className="flex scroll-mt-14 flex-col py-6 sm:py-16 md:flex-row"
+    >
       <div className="flex flex-col items-start justify-center ">
         <h2 className="w-full font-poppins text-[2.5rem]/[4.25rem] font-semibold text-white xs:text-5xl/[4.75rem]">
           You do the business,

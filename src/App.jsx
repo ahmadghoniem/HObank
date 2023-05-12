@@ -1,5 +1,4 @@
 import "./index.css";
-import "./style";
 import {
   Navbar,
   Billing,

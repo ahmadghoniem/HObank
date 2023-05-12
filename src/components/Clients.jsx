@@ -1,8 +1,11 @@
 import React from "react";
 import { clients } from "../constants";
 const Clients = () => (
-  <section className="flex items-center justify-center">
-    <div className=" flex w-full flex-wrap items-center justify-around">
+  <section
+    id="clients"
+    className="flex scroll-mt-10 items-center justify-center"
+  >
+    <div className="relative z-0 flex w-full flex-wrap items-center justify-around">
       {clients.map(({ id, logo }) => (
         <div key={id} className=" min-w-[8rem] sm:min-w-[12rem]">
           <img
