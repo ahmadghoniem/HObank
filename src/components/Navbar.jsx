@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 import classNames from "classnames";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   const navLinksElements = navLinks.map(({ id, title }) => (
     <li
       key={id}
@@ -13,7 +14,7 @@ const Navbar = () => {
     </li>
   ));
   return (
-    <nav className="flex w-full flex-row justify-between py-6">
+    <nav className=" flex w-full flex-row justify-between py-6">
       <img src={logo} alt="handbook" className="h-[32px] w-[124px]" />
       <ul className="hidden list-none items-center gap-10 sm:flex">
         {navLinksElements}
